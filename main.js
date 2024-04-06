@@ -2,7 +2,7 @@
 const axios = require('axios');
 const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('node:path')
-const { geocodeCity } = require('./utils');
+const { geocodeCity, retrieveCityCounts, renderCityCircles, geocodeCities } = require('./utils');
 
 const createWindow = () => {
     const mainWindow = new BrowserWindow({
@@ -21,10 +21,18 @@ app.whenReady().then(() => {
     app.on('activate', () => {
         if (BrowserWindow.getAllWindows().length === 0) createWindow();
     });
+    ipcMain.handle('geocode-cities', async (event, fileName) => {
+        return geocodeCities(fileName);
+    });
     ipcMain.handle('geocode-place', async (event, placeName) => {
         const result = geocodeCity(placeName);
         return result
     });
+    ipcMain.handle('retrieve-city-counts', async (event, fileName) => {
+        return retrieveCityCounts(fileName);
+    });
+   
+    
 });
 
 app.on('window-all-closed', () => {

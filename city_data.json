@@ -1,0 +1,138 @@
+[
+  {
+    "city": "Sylhet",
+    "latitude": 24.7358854,
+    "longitude": 91.6852476,
+    "count": 2
+  },
+  {
+    "city": "Dhaka",
+    "latitude": 26.6923775,
+    "longitude": 85.19863620982761,
+    "count": 9
+  },
+  {
+    "city": "Gazipur",
+    "latitude": 27.2204793,
+    "longitude": 77.1322846,
+    "count": 1
+  },
+  {
+    "city": "Kishoreganj",
+    "latitude": 25.899303,
+    "longitude": 89.0169223,
+    "count": 1
+  },
+  {
+    "city": "Chattogram",
+    "latitude": 22.333778,
+    "longitude": 91.8344348,
+    "count": 1
+  },
+  {
+    "city": "Barishal",
+    "latitude": 22.4934035,
+    "longitude": 90.3548015,
+    "count": 1
+  },
+  {
+    "city": "Narsingdi",
+    "latitude": 23.9197152,
+    "longitude": 90.7152981,
+    "count": 1
+  },
+  {
+    "city": "Narayanganj",
+    "latitude": 22.833949750000002,
+    "longitude": 80.24354925234462,
+    "count": 2
+  },
+  {
+    "city": "Faridpur",
+    "latitude": 28.19398125,
+    "longitude": 79.54143614963169,
+    "count": 2
+  },
+  {
+    "city": "Madaripur",
+    "latitude": 26.3150972,
+    "longitude": 79.3961803,
+    "count": 1
+  },
+  {
+    "city": "Feni",
+    "latitude": -13.785988,
+    "longitude": 32.7464916,
+    "count": 1
+  },
+  {
+    "city": "Dinajpur",
+    "latitude": 25.8707958,
+    "longitude": 87.96259728449391,
+    "count": 1
+  },
+  {
+    "city": "Cumilla",
+    "latitude": 23.4610615,
+    "longitude": 91.1808748,
+    "count": 1
+  },
+  {
+    "city": "Habiganj",
+    "latitude": 24.3746027,
+    "longitude": 91.41402723390942,
+    "count": 1
+  },
+  {
+    "city": "Shariatpur",
+    "latitude": 23.2132841,
+    "longitude": 90.3481247,
+    "count": 1
+  },
+  {
+    "city": "Rangpur",
+    "latitude": 22.384185549999998,
+    "longitude": 79.04769918130214,
+    "count": 1
+  },
+  {
+    "city": "Sirajganj",
+    "latitude": 24.4566253,
+    "longitude": 89.7081281,
+    "count": 1
+  },
+  {
+    "city": "Jashore",
+    "latitude": 23.1665256,
+    "longitude": 89.2094419,
+    "count": 1
+  },
+  {
+    "city": "Bhola",
+    "latitude": 32.6568091,
+    "longitude": 73.8934571,
+    "count": 1
+  },
+  {
+    "city": "Jhalakathi",
+    "latitude": 22.660561350000002,
+    "longitude": 90.1954498985531,
+    "count": 1
+  },
+  {
+    "city": "Gaibandha",
+    "latitude": 25.0860006,
+    "longitude": 89.8696436,
+    "count": 1
+  },
+  {
+    "city": "Mymensingh",
+    "latitude": 24.8889305,
+    "longitude": 90.3845187,
+    "count": 1
+  },
+  {
+    "city": "Jahsore",
+    "count": 1
+  }
+]
