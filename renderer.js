@@ -1,19 +1,13 @@
+
 window.onload = () => {
-    
-    const map = mapAPI.createMap();
-    geocodeAndMarkPlace('Berlin');
-    
+  
+  const map = LoadMap('city_data.json');
 };
 
-
-async function geocodeAndMarkPlace(placeName) {
-    console.log('Geocoding place:', placeName);
-    try {
-      const result = await electron.geocodePlace(placeName);
-      console.log('result:', result);
-    } catch (error) {
-      console.error('Error:', error);
-    }
-  }
+async function LoadMap(filename){
+    const map = await mapAPI.createMap(filename);
+    console.log('map:', map);
+    return map;
+}
 
   

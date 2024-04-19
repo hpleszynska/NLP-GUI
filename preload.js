@@ -3,13 +3,13 @@ const { contextBridge, ipcRenderer } = require('electron');
 const { renderCityCircles } = require('./utils');
 
 const mapAPI = {
-  createMap: async ()  => {
+  createMap: async (filename)  => {
     const map = require('leaflet').map('map').setView([23.81, 90.41], 13);
     require('leaflet').tileLayer('https://maptiles.p.rapidapi.com/en/map/v1/{z}/{x}/{y}.png?rapidapi-key=7e5aeb2275msha90e319f94992f7p1f5bd5jsnc459e6f67e97', {
       maxZoom: 10,
       attribution: '&copy; <a href="https://www.openptmap.org">OpenStreetMap</a> contributors'
     }).addTo(map);
-    await renderCityCircles( 'city_data.json', map);
+    await renderCityCircles(filename, map);
     return map;
   },
   geocodePlace: async (placeName) => {
